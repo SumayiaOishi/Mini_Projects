@@ -31,6 +31,24 @@ body{
     color: #b0413e;
     background-color: rgb(209, 197, 181);
 }
+#new-game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none; 
+}
+#msg{
+ color: rgb(229, 216, 216);
+ font-size: 1.5rem;
+}
+.msg-container{
+    height: 15vmin;
+}
+.hide{
+    display: none;
+}
 #reset{
     padding: 1rem;
     font-size: 1.25rem;
