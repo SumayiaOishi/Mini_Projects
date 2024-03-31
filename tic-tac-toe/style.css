@@ -28,8 +28,14 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: #b0413e;
+    
     background-color: rgb(209, 197, 181);
+}
+.forX{
+    color: rgb(163, 163, 35);
+}
+.forO{
+    color: green;
 }
 #new-game{
     padding: 1rem;

@@ -26,11 +26,14 @@ const resetGame =()=>{
 boxes.forEach((box)=>{
     box.addEventListener("click", ()=>{
       if(turn0){
-        box.innerHTML="X";
+     box.innerHTML="X";
+      
+       box.classList.add("forX")
         turn0=false;
       }
       else{
         box.innerHTML="O";
+        box.classList.add("forO");
         turn0=true;
       }
       count++;
